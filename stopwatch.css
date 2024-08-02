@@ -3,22 +3,8 @@
     padding: auto;
     box-sizing: border-box;
 }
-body
-{
-    font-family: 'Times New Roman', Times, serif;
-    font: size 25px;
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(1, 1, 1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .rectangle-outer-line
 {
-    height:300px;
-    width: 600px;
-    background-color: antiquewhite;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -28,8 +14,8 @@ body
     justify-content: center;
     display: flex;
     align-items: center;
-    height: 280px;
-    width: 580px;
+    height: 270px;
+    width: 570px;
     background-color: black;
 }
 .text-hours
@@ -104,29 +90,70 @@ button:hover
     font-size: 35px;
 
 }
-@keyframes rectangle-outer-line{
-    0% {
-        border-color: #ff7e5f;
+.bganimation
+{ 
+    font-family: 'Times New Roman', Times, serif;
+    font: size 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( 45deg , white , green , red, blue , lightblue, lightpink , lightgoldenrodyellow ,lightcoral);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite ;
+}
+@keyframes color
+{
+    0%
+    {
+        background-position: 0 50%;
     }
-    25% {
-        border-color: #feb47b;
+    50%
+    {
+        background-position: 100% 50%;
     }
-    50% {
-        border-color: #6a11cb;
-    }
-    75% {
-        border-color: #2575fc;
-    }
-    100% {
-        border-color: #ff7e5f;
+    100%
+    {
+        background-position: 0 50%;
     }
 }
-
-.rectangle-outer-line {
-    height:300px;
-    width: 600px;
+.rectangle-outer-line
+{
+    border-width:600px;
+    border-height:300px;
     border: 10px solid;
-    border-radius: 15px;
-    background: #fff;
-    animation: rectangle-outer-line 1s infinite; 
+    border-radius: 10px;
+    animation: color1 6s ease-in infinite;
+}
+@keyframes color1 {
+    0% {
+        border-color: #ff5f5f;
+    }
+    25% {
+        border-color: #ff7003;
+    }
+    50% {
+        border-color: #7906f5;
+    }
+    75% {
+        border-color: #07f817;
+    }
+    100% {
+        border-color: #fd008b;
+    }
+}
+.Laps
+{
+    background-color: black;
+    border: 10px solid;
+    border-radius: 10px;
+    animation: color1 6s ease-in infinite;
+    color: #f9f9f9;
+}
+button
+{
+    border: 5px solid;
+    border-radius: 10px;
+    animation: color1 6s ease-in infinite;
 }
