@@ -101,7 +101,7 @@ button:hover
     height: 100vh;
     background: linear-gradient( 45deg , white , green , red, blue , lightblue, lightpink , lightgoldenrodyellow ,lightcoral);
     background-size: 300% 300%;
-    animation: color 30s ease-in-out infinite ;
+    animation: color 240s ease-in-out infinite ;
 }
 @keyframes color
 {
