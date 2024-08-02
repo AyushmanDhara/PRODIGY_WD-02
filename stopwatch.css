@@ -1,0 +1,132 @@
+*{
+    margin:0%;
+    padding: auto;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    font: size 25px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(1, 1, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rectangle-outer-line
+{
+    height:300px;
+    width: 600px;
+    background-color: antiquewhite;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.innerline-rectangal
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 280px;
+    width: 580px;
+    background-color: black;
+}
+.text-hours
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: aliceblue;
+    
+}
+.text-min
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: aliceblue;
+}
+.text-sec
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: aliceblue;
+    
+}
+.text-msec
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 52px;
+    color: aliceblue;
+    
+}
+.button-p
+{
+    justify-content: space-between;
+    display: flex;
+    margin-top:50px;
+    border: 3px;   
+}
+button
+{
+    border-color: blanchedalmond;
+    border-radius: 10%;
+    height: 100px;
+    width: 120px;
+    font-size: 25px;
+    font-family: Verdana;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+button:hover
+{
+    background-color: blanchedalmond;
+    color: black;
+}
+.button-a
+{
+    justify-content:center;
+    display: flex;
+    margin-top: 25px;
+}
+.Laps 
+ {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    max-height: 500px;
+    width: 250px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 30px;
+    background-color: #f9f9f9;
+    font-size: 35px;
+
+}
+@keyframes rectangle-outer-line{
+    0% {
+        border-color: #ff7e5f;
+    }
+    25% {
+        border-color: #feb47b;
+    }
+    50% {
+        border-color: #6a11cb;
+    }
+    75% {
+        border-color: #2575fc;
+    }
+    100% {
+        border-color: #ff7e5f;
+    }
+}
+
+.rectangle-outer-line {
+    height:300px;
+    width: 600px;
+    border: 10px solid;
+    border-radius: 15px;
+    background: #fff;
+    animation: rectangle-outer-line 1s infinite; 
+}
