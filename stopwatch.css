@@ -153,3 +153,9 @@ button
     border-radius: 10px;
     animation: color1 6s ease-in infinite;
 }
+@media only screen and (max width:414px)
+{.text
+  {  visibility:collopse;}
+ .phone text
+ { visibility: visible;}
+}
