@@ -153,52 +153,6 @@ button
     border-radius: 10px;
     animation: color1 6s ease-in infinite;
 }
-/* Default styles */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-/* Mobile devices (max-width: 768px) */
-@media only screen and (max-width: 768px) {
-  .container {
-    padding: 10px;
-  }
-  img {
-    width: 100%;
-    height: auto;
-  }
-}
-
-/* Tablets (min-width: 769px) and (max-width: 1024px) */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  .container {
-    padding: 20px;
-  }
-  img {
-    width: 50%;
-    height: auto;
-  }
-}
-
-/* Desktop devices (min-width: 1025px) */
-@media only screen and (min-width: 1025px) {
-  .container {
-    padding: 30px;
-  }
-  img {
-    width: 33.33%;
-    height: auto;
-  }
-}
-
 @media only screen and (max-width: 768px) {
     . rectangle-outer-line
     .innerline-rectangal
@@ -206,4 +160,4 @@ body {
     .Laps
   { visibility : collopse ;}
  { visibility : visible;}
-}
+  }
