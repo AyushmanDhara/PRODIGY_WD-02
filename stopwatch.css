@@ -199,15 +199,11 @@ body {
   }
 }
 
-/* Additional adjustments for specific devices */
-@media only screen and (max-width: 480px) {
-  /* Adjustments for small mobile devices */
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  /* Adjustments for tablets in portrait mode */
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* Adjustments for tablets in landscape mode */
+@media only screen and (max-width: 768px) {
+    . rectangle-outer-line
+    .innerline-rectangal
+    .button
+    .Laps
+  { visibility : collopse ;}
+ { visibility : visible;}
 }
