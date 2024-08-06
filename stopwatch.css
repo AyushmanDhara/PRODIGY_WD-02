@@ -1,7 +1,12 @@
 *{
     margin:0%;
     padding: auto;
-    box-sizing: border-box;
+}
+body
+{
+    width: 100%;
+    height: 100vh;
+
 }
 .rectangle-outer-line
 {
@@ -78,17 +83,17 @@ button:hover
 }
 .Laps 
  {
+    left:550px;
     position: absolute;
-    top: 50px;
-    right: 50px;
-    max-height: 500px;
-    width: 250px;
-    overflow-y: auto;
-    border: 1px solid #ddd;
-    padding: 30px;
-    background-color: #f9f9f9;
-    font-size: 35px;
-
+    top:250px;
+    padding: 20px;
+    font-size: 40px;
+    height: 10px;
+    width: 200px;
+    overflow-y:auto ;
+    overscroll-behavior: auto;
+    color:azure;
+     
 }
 .bganimation
 { 
@@ -99,11 +104,11 @@ button:hover
     align-items: center;
     width: 100%;
     height: 100vh;
-    background: linear-gradient( 45deg , white , green , red, blue , lightblue, lightpink , lightgoldenrodyellow ,lightcoral);
+    background: linear-gradient( 45deg , white , green , red, blue , lightblue, lightpink , lightgoldenrodyellow ,lightcoral , gray , yellow, pink , black );
     background-size: 300% 300%;
-    animation: color0 240s ease-in-out infinite ;
+    animation: color2 15s ease-in-out infinite ;
 }
-@keyframes color0
+@keyframes color2
 {
     0%
     {
@@ -121,7 +126,6 @@ button:hover
 .rectangle-outer-line
 {
     border-width:600px;
-    border-height:300px;
     border: 10px solid;
     border-radius: 10px;
     animation: color1 6s ease-in infinite;
@@ -142,14 +146,6 @@ button:hover
     100% {
         border-color: #fd008b;
     }
-}
-.Laps
-{
-    background-color: black;
-    border: 10px solid;
-    border-radius: 10px;
-    animation: color1 6s ease-in infinite;
-    color: #f9f9f9;
 }
 button
 {
